@@ -76,22 +76,23 @@
             <div id="reported">
                 <h1>Reported posts</h1>
             </div>
-<!-- Answeing Question part-->
-            <section class="mt-5 ">
-                <h1 class="text-center text-info">Answering Question:</h1>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h4 class="fw-bold text-danger my-3 ">Question-1:How does JavaScript work?</h4>
-                        <p class="fs-4"><span class="text-success fw-bolder">Answer:</span> Whenever a JavaScript source code comes to the browser instanly the browser parse the source code and make a syntax tree by using the V8 engine.As we all know Javascript is a interpreted language,so a interpretition occurs to read the code linewise.To execute the Javascript more faster the browser mostly use the JIT(Just In Time compiler).That compilation transform the javaScript into byte code specifically in machine understandable form</p>
-                    </div>
-                    <div class="col-lg-12">
-                        <h4 class="fw-bold text-danger my-3 ">Question-2:What does JS event loop do?</h4>
-                        <p class="fs-4"><span class="text-success fw-bolder">Answer:</span>When JavaScript works it monitors two things-stack and queue.First of all,it executes all the functionalities presents in a stack and then take action from the queue.But if the stack remains empty it directly goes to the queue and take the first function from it to execute.This eteration is to be continued untill the stack or queue becomes empty.It's just like calling the function again one after another.</p>
-                    </div>
-                </div>
-            </section>
+
         </main>
+        <!-- Answeing Question part-->
+        <section class="mt-5 container" id="answer-question">
+            <h1 class="text-center text-info">Answering Question:</h1>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
+                    <h4 class="fw-bold text-danger my-3 ">Question-1:How does JavaScript work?</h4>
+                    <p class="fs-4"><span class="text-success fw-bolder text-decoration-underline">Answer:</span> Whenever a JavaScript source code comes to the browser instanly the browser parse the source code and make a syntax tree by using the V8 engine.As we all know Javascript is a interpreted language,so a interpretition occurs to read the code linewise.To execute the Javascript more faster the browser mostly use the JIT(Just In Time compiler).That compilation transform the javaScript into byte code specifically in machine understandable form</p>
+                </div>
+                <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
+                    <h4 class="fw-bold text-danger my-3 ">Question-2:What does JS event loop do?</h4>
+                    <p class="fs-4"><span class="text-success fw-bolder text-decoration-underline">Answer:</span>When JavaScript works it monitors two things-stack and queue.First of all,it executes all the functionalities presents in a stack and then take action from the queue.But if the stack remains empty it directly goes to the queue and take the first function from it to execute.This eteration is to be continued untill the stack or queue becomes empty.It's just like calling the function again one after another.</p>
+                </div>
+            </div>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
